@@ -1,0 +1,25 @@
+uuid: 1dc18283-6e76-4305-8fd2-c7866f162003
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:advertisement:99a830a6-6b37-46e3-ba40-7c168820d62e'
+  module:
+    - block_content
+  theme:
+    - thunder_base
+id: serraleonefootballassociation
+theme: thunder_base
+region: footer_second
+weight: 0
+provider: null
+plugin: 'block_content:99a830a6-6b37-46e3-ba40-7c168820d62e'
+settings:
+  id: 'block_content:99a830a6-6b37-46e3-ba40-7c168820d62e'
+  label: 'Serra Leone Football Association'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

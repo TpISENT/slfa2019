@@ -1,0 +1,9 @@
+uuid: a02fc784-1d67-49db-8ff9-2fe0511efbff
+langcode: en
+status: true
+dependencies: {  }
+name: Seasons
+vid: seasons
+description: Seasons
+hierarchy: 0
+weight: 0

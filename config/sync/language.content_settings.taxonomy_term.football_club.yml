@@ -1,0 +1,11 @@
+uuid: f8afe292-de1d-4d42-adfe-c5788eeb6819
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.football_club
+id: taxonomy_term.football_club
+target_entity_type_id: taxonomy_term
+target_bundle: football_club
+default_langcode: site_default
+language_alterable: false

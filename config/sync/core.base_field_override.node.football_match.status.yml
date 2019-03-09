@@ -1,0 +1,22 @@
+uuid: fb4e726b-ac4e-412c-9b1a-c758d1a82110
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.football_match
+id: node.football_match.status
+field_name: status
+entity_type: node
+bundle: football_match
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

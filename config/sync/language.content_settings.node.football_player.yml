@@ -1,0 +1,11 @@
+uuid: cf42f193-70ed-41a4-8490-525a636c2b82
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.football_player
+id: node.football_player
+target_entity_type_id: node
+target_bundle: football_player
+default_langcode: site_default
+language_alterable: false

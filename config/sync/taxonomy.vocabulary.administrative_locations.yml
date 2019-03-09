@@ -1,0 +1,9 @@
+uuid: b8a02795-41b1-4c8a-9d39-7b2457f786d7
+langcode: en
+status: true
+dependencies: {  }
+name: 'Administrative Locations'
+vid: administrative_locations
+description: 'Administrative Locations'
+hierarchy: 0
+weight: 0

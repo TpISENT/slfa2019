@@ -1,0 +1,9 @@
+uuid: ff956add-d40d-4a8d-a23c-2cdf632a9ebd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Competition Status'
+vid: competition_status
+description: 'Competition Status'
+hierarchy: 0
+weight: 0

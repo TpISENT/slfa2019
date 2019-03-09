@@ -1,0 +1,32 @@
+uuid: 94498016-f9c4-4b89-8a70-d135ffab83a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.football_match.body
+    - node.type.football_match
+  module:
+    - text
+    - user
+id: node.football_match.teaser
+targetEntityType: node
+bundle: football_match
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  shariff_field: true

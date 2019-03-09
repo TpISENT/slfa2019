@@ -1,0 +1,22 @@
+uuid: e76c8bb2-4632-42f8-bec9-b8ed8e1147de
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.photo_album
+  module:
+    - text
+id: node.photo_album.body
+field_name: body
+entity_type: node
+bundle: photo_album
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

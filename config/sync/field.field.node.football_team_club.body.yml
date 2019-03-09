@@ -1,0 +1,22 @@
+uuid: e015115d-12a2-4b4c-baad-d6f7d0e86f98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.football_team_club
+  module:
+    - text
+id: node.football_team_club.body
+field_name: body
+entity_type: node
+bundle: football_team_club
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

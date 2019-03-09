@@ -1,0 +1,32 @@
+uuid: 07f13b5a-f869-4a29-a575-d36af6b3a7d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.football_team_club.body
+    - node.type.football_team_club
+  module:
+    - text
+    - user
+id: node.football_team_club.teaser
+targetEntityType: node
+bundle: football_team_club
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  shariff_field: true

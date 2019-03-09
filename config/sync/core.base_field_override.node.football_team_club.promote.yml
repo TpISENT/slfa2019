@@ -1,0 +1,22 @@
+uuid: 492a2b36-fb22-4f57-a00c-d1c1218bbfb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.football_team_club
+id: node.football_team_club.promote
+field_name: promote
+entity_type: node
+bundle: football_team_club
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

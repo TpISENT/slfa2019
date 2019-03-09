@@ -1,0 +1,9 @@
+uuid: 2d1bf7c1-f6cb-4071-8367-5aae90f3caf0
+langcode: en
+status: true
+dependencies: {  }
+name: 'Football Club'
+vid: football_club
+description: 'Football Club'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,9 @@
+uuid: bb680700-a225-4955-bd29-50f3c8ffd265
+langcode: en
+status: true
+dependencies: {  }
+name: Competitions
+vid: competitions
+description: Competitions
+hierarchy: 0
+weight: 0

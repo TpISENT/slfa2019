@@ -1,0 +1,11 @@
+uuid: fa71380a-ad34-4151-b41a-4d04f7a186cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.staff_positions
+id: taxonomy_term.staff_positions
+target_entity_type_id: taxonomy_term
+target_bundle: staff_positions
+default_langcode: site_default
+language_alterable: false

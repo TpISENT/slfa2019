@@ -1,0 +1,11 @@
+uuid: 999c9cbe-c2a7-49c1-bc30-d8a61419daf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.fixture
+id: taxonomy_term.fixture
+target_entity_type_id: taxonomy_term
+target_bundle: fixture
+default_langcode: site_default
+language_alterable: false

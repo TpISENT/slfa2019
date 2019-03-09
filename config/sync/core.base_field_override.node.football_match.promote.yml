@@ -1,0 +1,22 @@
+uuid: f0de169c-7631-49e5-b35d-37bddb8439b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.football_match
+id: node.football_match.promote
+field_name: promote
+entity_type: node
+bundle: football_match
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

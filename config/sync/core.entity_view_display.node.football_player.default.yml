@@ -1,0 +1,30 @@
+uuid: 7d8c0c2d-7c60-457a-9923-009f1fcd59b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.football_player.body
+    - node.type.football_player
+  module:
+    - text
+    - user
+id: node.football_player.default
+targetEntityType: node
+bundle: football_player
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  shariff_field: true

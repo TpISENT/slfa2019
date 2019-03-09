@@ -1,0 +1,8 @@
+uuid: a12f5788-f581-4a6a-a107-d891112c79c8
+langcode: en
+status: true
+dependencies: {  }
+id: advertisement
+label: Advertisement
+revision: 1
+description: ''

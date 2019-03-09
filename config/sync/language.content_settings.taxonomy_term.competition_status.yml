@@ -1,0 +1,11 @@
+uuid: a87e09b6-3d01-4f84-9f65-d9291d2b0e66
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.competition_status
+id: taxonomy_term.competition_status
+target_entity_type_id: taxonomy_term
+target_bundle: competition_status
+default_langcode: site_default
+language_alterable: false
