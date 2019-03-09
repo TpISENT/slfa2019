@@ -1,0 +1,22 @@
+uuid: b4e9562e-099e-41ab-b743-fc5b06eef2a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.football_player
+  module:
+    - text
+id: node.football_player.body
+field_name: body
+entity_type: node
+bundle: football_player
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

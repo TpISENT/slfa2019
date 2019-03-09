@@ -1,0 +1,9 @@
+uuid: 6bd2d680-904a-4aa6-b1e1-0bb515d8ae06
+langcode: en
+status: true
+dependencies: {  }
+name: 'Content Section'
+vid: content_section
+description: 'Content Section'
+hierarchy: 0
+weight: 0

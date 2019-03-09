@@ -1,0 +1,11 @@
+uuid: 56f09779-f1d2-4127-9113-582a74448ea6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.football_match
+id: node.football_match
+target_entity_type_id: node
+target_bundle: football_match
+default_langcode: site_default
+language_alterable: false

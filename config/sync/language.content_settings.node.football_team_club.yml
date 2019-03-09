@@ -1,0 +1,11 @@
+uuid: 5af74bf3-67c9-4019-acd3-1b34184b797a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.football_team_club
+id: node.football_team_club
+target_entity_type_id: node
+target_bundle: football_team_club
+default_langcode: site_default
+language_alterable: false

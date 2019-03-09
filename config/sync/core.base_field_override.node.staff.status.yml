@@ -1,0 +1,22 @@
+uuid: d22dd269-d29e-41b7-af33-4c1655983063
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.staff
+id: node.staff.status
+field_name: status
+entity_type: node
+bundle: staff
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,30 @@
+uuid: eb366bf9-737b-4760-b70b-5a2a60d25ff7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.staff.body
+    - node.type.staff
+  module:
+    - text
+    - user
+id: node.staff.default
+targetEntityType: node
+bundle: staff
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  shariff_field: true

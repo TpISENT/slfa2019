@@ -1,0 +1,30 @@
+uuid: b37c39aa-0aa6-407e-bc4a-19f245e5e1e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.football_team_club.body
+    - node.type.football_team_club
+  module:
+    - text
+    - user
+id: node.football_team_club.default
+targetEntityType: node
+bundle: football_team_club
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  shariff_field: true

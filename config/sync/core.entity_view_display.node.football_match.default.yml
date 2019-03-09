@@ -1,0 +1,30 @@
+uuid: edc10256-4774-4214-b249-082efca7cbda
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.football_match.body
+    - node.type.football_match
+  module:
+    - text
+    - user
+id: node.football_match.default
+targetEntityType: node
+bundle: football_match
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  shariff_field: true

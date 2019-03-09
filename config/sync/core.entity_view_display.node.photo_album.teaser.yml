@@ -1,0 +1,32 @@
+uuid: ff148f12-5700-46b1-a7dc-1a50bf751463
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.photo_album.body
+    - node.type.photo_album
+  module:
+    - text
+    - user
+id: node.photo_album.teaser
+targetEntityType: node
+bundle: photo_album
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  shariff_field: true

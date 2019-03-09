@@ -1,0 +1,22 @@
+uuid: 3b250584-5ac6-4a53-9f8a-7c7f5994e1d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.football_match
+  module:
+    - text
+id: node.football_match.body
+field_name: body
+entity_type: node
+bundle: football_match
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

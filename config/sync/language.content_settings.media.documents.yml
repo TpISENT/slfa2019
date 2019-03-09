@@ -1,0 +1,11 @@
+uuid: 7589ab6b-8c5e-4db7-bf87-e670a50b6ece
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.documents
+id: media.documents
+target_entity_type_id: media
+target_bundle: documents
+default_langcode: site_default
+language_alterable: false

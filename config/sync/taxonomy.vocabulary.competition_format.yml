@@ -1,0 +1,9 @@
+uuid: dd206697-dfdd-4b7a-9bb2-cf32296101e2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Competition Format'
+vid: competition_format
+description: 'Competition Format'
+hierarchy: 0
+weight: 0

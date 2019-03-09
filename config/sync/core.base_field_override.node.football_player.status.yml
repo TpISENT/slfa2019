@@ -1,0 +1,22 @@
+uuid: 85b43189-e621-4c83-9fc9-72477d968b01
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.football_player
+id: node.football_player.status
+field_name: status
+entity_type: node
+bundle: football_player
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

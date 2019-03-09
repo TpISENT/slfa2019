@@ -1,0 +1,29 @@
+uuid: e40a1cb8-8373-4379-8196-b148f498a0cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.link.field_link
+    - paragraphs.paragraphs_type.link
+  module:
+    - link
+_core:
+  default_config_hash: CijTkmmDPuEdRQXqSbEx_vTNk-P74Fh8eM2j6E8lAR4
+id: paragraph.link.default
+targetEntityType: paragraph
+bundle: link
+mode: default
+content:
+  field_link:
+    type: link_default
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

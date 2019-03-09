@@ -1,0 +1,25 @@
+uuid: 545b16b4-59fc-490d-96a3-c28157b5bc68
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:1fdbd9f1-a010-4ff0-9333-bf5e6ccd27ba'
+  module:
+    - block_content
+  theme:
+    - thunder_base
+id: copyright
+theme: thunder_base
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:1fdbd9f1-a010-4ff0-9333-bf5e6ccd27ba'
+settings:
+  id: 'block_content:1fdbd9f1-a010-4ff0-9333-bf5e6ccd27ba'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
