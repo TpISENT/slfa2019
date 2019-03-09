@@ -1,0 +1,325 @@
+/**
+ * @file
+ * Visual styles for SLFA2019's product content type.
+ */
+/* banner */
+.page-node-type-mt-product .banner {
+  background-image: none;
+}
+.page-node-type-mt-product .banner:after {
+  background-color: transparent;
+}
+
+/*breadcrumb*/
+.page-node-type-mt-product .banner__section .block:first-child .breadcrumb {
+  padding-top: 0;
+}
+.page-node-type-mt-product .container-fluid .breadcrumb {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.page-node-type-mt-product .banner__section .breadcrumb {
+  background-color: #ebebeb;
+  text-align: left;
+}
+.page-node-type-mt-product .banner__section .breadcrumb .breadcrumb__item {
+  font-size: 14px;
+  color: #2a2a2a;
+}
+
+/* main content section */
+.page-node-type-mt-product .main-content__section {
+  padding-top: 0;
+}
+.page-node-type-mt-product .sidebar__section {
+  padding-top: 54px;
+}
+
+/*page title*/
+.page-node-type-mt-product .page-title {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 60px;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  .page-node-type-mt-product .page-title {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 575px) {
+  .page-node-type-mt-product .page-title {
+    margin-top: 30px;
+  }
+}
+.page-node-type-mt-product .banner__section h1.page-title {
+  display: none;
+}
+.page-node-type-mt-product .carousel-internal ~ .page-title-container .page-title {
+  margin-top: 20px;
+}
+
+/* node header */
+.node--type-mt-product .node__header {
+  padding: 0;
+}
+
+/* field labels */
+.product-content-top-first .field__label {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2a2a2a;
+}
+
+/*product content top*/
+.product-content-top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  -ms-flex-pack: center!important;
+  justify-content: center!important;
+}
+.product-content-top-first,
+.product-content-top-second {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .layout-no-sidebars .two-columns .product-content-top-first {
+    -ms-flex: 0 0 58.3333333%;
+    flex: 0 0 58.3333333%;
+    max-width: 58.3333333%;
+  }
+  .layout-no-sidebars .product-content-top-first + .product-content-top-second {
+    -ms-flex: 0 0 41.6666667%;
+    flex: 0 0 41.6666667%;
+    max-width: 41.6666667%;
+    padding-left: 30px;
+  }
+}
+
+/*subheader field*/
+.field--name-field-mt-prd-subheader-body {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/*image field*/
+.node--type-mt-product .field--name-field-mt-prd-image {
+  margin-bottom: 30px;
+}
+@media (max-width: 575px) {
+  .node--type-mt-product .field--name-field-mt-prd-image {
+    margin: 0 -15px 30px;
+  }
+}
+.node--type-mt-product.node--view-mode-teaser .images-container {
+  margin-bottom: 15px;
+}
+
+/*price field*/
+.node--type-mt-product .field--name-field-mt-prd-price {
+  font-size: 40px;
+  line-height: 1;
+  text-align: center;
+}
+.region--dark-typography .node--type-mt-product .field--name-field-mt-prd-price {
+  color: #2a2a2a;
+}
+
+/*buy link field*/
+.node--type-mt-product .field--name-field-mt-prd-buy-link {
+  text-align: center;
+}
+.node--type-mt-product .field--name-field-mt-prd-price + .field--name-field-mt-prd-buy-link {
+  margin-top: 30px;
+}
+.node--type-mt-product .field--name-field-mt-prd-buy-link a {
+  font-size: 15px;
+  font-weight: 400;
+  min-width: 190px;
+  padding: 16px 30px 15px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  line-height: 1;
+  border-width: 2px;
+  border-style: solid;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin: 10px 0;
+  text-align: center;
+  background-color: transparent;
+}
+.headings-wide-spacing-enabled .node--type-mt-product .field--name-field-mt-prd-buy-link a {
+  letter-spacing: 0.25em;
+}
+
+/*availabilty and product code fields*/
+.node--type-mt-product .field--name-field-mt-prd-product-code,
+.node--type-mt-product .field--name-field-mt-prd-availability {
+  margin: 10px 0;
+}
+.region--dark-typography .node--type-mt-product .in_stock {
+  color: #388300;
+}
+.node--type-mt-product .field--name-field-mt-prd-product-code,
+.node--type-mt-product .field--name-field-mt-prd-availability {
+  font-weight: 400;
+}
+.node--type-mt-product .field--name-field-mt-prd-product-code:before {
+  content: "#";
+}
+
+/*subtitle field*/
+.node--type-mt-product .field--name-field-mt-prd-subtitle {
+  font-size: 24px;
+}
+.region--dark-typography .node--type-mt-product .field--name-field-mt-prd-subtitle {
+  color: #2a2a2a;
+}
+.node--type-mt-product .region--dark-typography .field--name-field-mt-prd-subtitle {
+  color: #2a2a2a;
+}
+
+/*highlight fields*/
+.field--name-field-mt-prd-highlight .field__label {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* categories field */
+.field--name-field-mt-prd-categories {
+  padding-left: 0;
+  margin: 0;
+  padding-top: 0;
+  font-size: 15px;
+  margin-top: 4px;
+}
+.field--name-field-mt-prd-categories.field--label-hidden:before,
+.field--name-field-mt-prd-categories.field--label-hidden.field__item:before {
+  content: "\f292";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding-right: 5px;
+  margin-left: 1px;
+  position: static;
+  color: #6c6c6c;
+  font-size: 16px;
+}
+.field--name-field-mt-prd-categories > .field__items {
+  padding-right: 0;
+}
+.field--name-field-mt-prd-categories > .field__items > .field__item:last-child {
+  margin-right: 0;
+}
+.region--dark-typography .field--name-field-mt-prd-categories.field--label-inline .field__label {
+  color: #6c6c6c;
+  font-weight: 400;
+}
+
+/* delivery options field */
+.field--name-field-mt-prd-delivery-options {
+  margin-top: 30px;
+}
+.field--name-field-mt-prd-delivery-options .field__label {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+.field--name-field-mt-prd-delivery-options .field__label:after {
+  content:":";
+}
+.field--name-field-mt-prd-delivery-options .list--fa-check li {
+  padding: 0 0 5px 25px;
+}
+.field--name-field-mt-prd-delivery-options .list--fa-check li:before {
+  font-size: 12px;
+  top: 3px;
+}
+
+/* product meta info */
+.product-meta-info .col-auto + .col-auto:before {
+  content: "";
+  height: 70%;
+  width: 1px;
+  background-color: #cecece;
+  position: absolute;
+  left: -1px;
+  top: 15%;
+}
+
+/* product specification field */
+.field--name-field-mt-prd-specifications {
+  margin-bottom: 30px;
+}
+.field--name-field-mt-prd-specifications > .field__items {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -3px;
+  margin-left: -3px;
+}
+.field--name-field-mt-prd-specifications > .field__items > .field__item {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.paragraph--type--mt-prd-specification {
+  background-color: #f6f6f6;
+  padding: 10px 15px;
+  margin-bottom: 6px;
+}
+@media (min-width: 992px) {
+  .field--name-field-mt-prd-specifications > .field__items > .field__item {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+}
+.field--name-field-mt-prd-specification-label {
+  font-weight: 700;
+}
+.field--name-field-mt-prd-specifications .field__label {
+  font-size: 40px;
+  line-height: 1.20;
+  padding: 0;
+  margin: 50px 0 20px;
+  color: #2a2a2a;
+}
+.field--name-field-mt-prd-specifications .paragraph--type--mt-prd-specification {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* highlight field */
+.field--name-field-mt-prd-highlight {
+  padding: 40px 0;
+}

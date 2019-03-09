@@ -1,0 +1,5 @@
+# Schema for the configuration files of the SLFA2019 theme.
+
+slfa2019.settings:
+  type: theme_settings
+  label: 'SLFA2019 settings'

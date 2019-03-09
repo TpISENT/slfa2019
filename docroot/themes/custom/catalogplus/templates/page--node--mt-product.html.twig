@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * Catalog+'s theme implementation to display internal banner slider of Service node.
+ */
+#}
+
+{% extends "page.html.twig" %}
+{% block product_title %}
+  <div class="page-title-container">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="page-title">
+            {{ node.label }}
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+{% block internal_banner %}
+  {{ mt_prd_internal_banner_carousel }}
+{% endblock %}
