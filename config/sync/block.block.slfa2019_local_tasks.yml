@@ -1,0 +1,22 @@
+uuid: c38c6d67-d245-40aa-b7a1-3f2e7144197e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - slfa2019
+_core:
+  default_config_hash: Z7RDbY2i4gRfFyv96_UYdoImUDlhNYeQbHZxqqatCKg
+id: slfa2019_local_tasks
+theme: slfa2019
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

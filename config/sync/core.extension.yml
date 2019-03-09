@@ -3,6 +3,7 @@ module:
   admin_toolbar: 0
   admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
+  better_exposed_filters: 0
   better_normalizers: 0
   blazy: 0
   block: 0
@@ -10,6 +11,7 @@ module:
   breakpoint: 0
   checklistapi: 0
   ckeditor: 0
+  comment: 0
   config: 0
   config_selector: 0
   config_update: 0
@@ -41,6 +43,7 @@ module:
   hal: 0
   help: 0
   image: 0
+  image_widget_crop: 0
   inline_entity_form: 0
   inline_form_errors: 0
   language: 0
@@ -74,6 +77,10 @@ module:
   responsive_preview: 0
   scheduler: 0
   scheduler_content_moderation_integration: 0
+  search_api: 0
+  search_api_autocomplete: 0
+  search_api_db: 0
+  search_api_page: 0
   select2: 0
   serialization: 0
   settings_tray: 0
@@ -81,6 +88,7 @@ module:
   simple_sitemap: 0
   slick: 0
   slick_media: 0
+  superfish: 0
   system: 0
   taxonomy: 0
   text: 0
@@ -92,11 +100,13 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  tvi: 0
   update: 0
   user: 0
   video_embed_field: 0
   video_embed_media: 0
   views_ui: 0
+  webform: 0
   workflows: 0
   menu_link_content: 1
   pathauto: 1
@@ -110,6 +120,8 @@ theme:
   seven: 0
   thunder_base: 0
   thunder_admin: 0
+  catalogplus: 0
+  slfa2019: 0
 profile: thunder
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc

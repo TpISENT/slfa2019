@@ -1,0 +1,26 @@
+uuid: 9d99c8ce-b6f4-40b5-8807-36f8ea09d49b
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.index.default_index
+id: search
+label: Search
+path: search
+clean_url: true
+show_all_when_no_keys: false
+index: default_index
+limit: 10
+searched_fields:
+  rendered_item: rendered_item
+  title: title
+style: view_modes
+view_mode_configuration:
+  'entity:node_article': default
+  'entity:node_football_match': default
+  'entity:node_football_player': default
+  'entity:node_football_team_club': default
+  'entity:node_page': default
+  'entity:node_photo_album': default
+  'entity:node_staff': default
+show_search_form: true

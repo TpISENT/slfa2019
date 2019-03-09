@@ -1,0 +1,26 @@
+uuid: 31895c3b-145a-43b5-a644-d89db442435d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - catalogplus
+_core:
+  default_config_hash: MnpgNkxLW0UymK1n-j2W0LnGi8piopyLu05i_3VRRIc
+id: catalogplus_main_menu
+theme: catalogplus
+region: header
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

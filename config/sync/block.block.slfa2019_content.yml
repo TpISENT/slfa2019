@@ -1,0 +1,22 @@
+uuid: af87dfdd-8ed2-4ca1-8f00-ba7f8047da61
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - slfa2019
+_core:
+  default_config_hash: EVx2pFwIFyip6UD8Kur8wwveVBh1596ZxPTpyQozDcM
+id: slfa2019_content
+theme: slfa2019
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

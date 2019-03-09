@@ -1,0 +1,22 @@
+uuid: 32345eae-17d3-4edc-9c7c-f2d1df0d3aa0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - catalogplus
+_core:
+  default_config_hash: Nfqh3REPHN2ujHlZCXJovUdOIZ49syEB9Sa_niDR-Mg
+id: catalogplus_powered
+theme: catalogplus
+region: footer_first
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

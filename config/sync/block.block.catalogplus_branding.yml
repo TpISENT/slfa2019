@@ -1,0 +1,25 @@
+uuid: 2bc15662-13a2-4dec-ad79-451640dc5daf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - catalogplus
+_core:
+  default_config_hash: fI7FtTzN8v2_CGdK-fg-31Q6rAV-m78_D7hiTqXx7aM
+id: catalogplus_branding
+theme: catalogplus
+region: header_first
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

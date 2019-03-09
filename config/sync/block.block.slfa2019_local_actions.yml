@@ -1,0 +1,20 @@
+uuid: 638bdc8f-9b5b-4dfc-875d-7a08c59fbc23
+langcode: en
+status: true
+dependencies:
+  theme:
+    - slfa2019
+_core:
+  default_config_hash: dqq5TPg6lsnYi_ae1yw_0JC88eC9O8Fm0bKsZnDtc_Y
+id: slfa2019_local_actions
+theme: slfa2019
+region: content
+weight: -7
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

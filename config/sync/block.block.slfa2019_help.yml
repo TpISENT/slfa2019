@@ -1,0 +1,22 @@
+uuid: 59a34b4e-ca7c-4fe0-9c79-bc60a0607816
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - slfa2019
+_core:
+  default_config_hash: UMHZEPT8RHkVfQDDAw34vgYtc7nBCFgEsVN_ruJI_4c
+id: slfa2019_help
+theme: slfa2019
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

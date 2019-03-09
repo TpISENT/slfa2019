@@ -1,0 +1,22 @@
+uuid: 086ec521-ca13-428a-9895-7e4929593474
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - slfa2019
+_core:
+  default_config_hash: QajBw3mR7-6jxScH0Wv5sEJJ0n_u7ZV7wzs4i6VSrRQ
+id: slfa2019_messages
+theme: slfa2019
+region: system_messages
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

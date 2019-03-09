@@ -1,0 +1,22 @@
+uuid: afdbfa42-b63f-47ed-9dca-e6dc0335923d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - catalogplus
+_core:
+  default_config_hash: bZA8rA3FbuNEUDr_XkQLL2NMIfA91x1vqA47CnxHIhs
+id: catalogplus_help
+theme: catalogplus
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 51185e12-a498-4806-bbc7-114ac1a9ad97
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:36cde6b5-cefc-4f10-b781-d7240c97041b'
+  module:
+    - block_content
+  theme:
+    - slfa2019
+id: socialbookmarks
+theme: slfa2019
+region: sub_footer_top_third
+weight: 0
+provider: null
+plugin: 'block_content:36cde6b5-cefc-4f10-b781-d7240c97041b'
+settings:
+  id: 'block_content:36cde6b5-cefc-4f10-b781-d7240c97041b'
+  label: 'Social Bookmarks'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

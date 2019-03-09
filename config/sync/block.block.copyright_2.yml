@@ -1,0 +1,25 @@
+uuid: 3900bcc2-1af0-4c8d-9a61-f078aff203c8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic_block:1fdbd9f1-a010-4ff0-9333-bf5e6ccd27ba'
+  module:
+    - block_content
+  theme:
+    - slfa2019
+id: copyright_2
+theme: slfa2019
+region: sub_footer_first
+weight: 0
+provider: null
+plugin: 'block_content:1fdbd9f1-a010-4ff0-9333-bf5e6ccd27ba'
+settings:
+  id: 'block_content:1fdbd9f1-a010-4ff0-9333-bf5e6ccd27ba'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

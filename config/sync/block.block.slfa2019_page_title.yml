@@ -1,0 +1,20 @@
+uuid: 0af6f677-e5cb-4aa5-bbf6-5b11ff52e475
+langcode: en
+status: true
+dependencies:
+  theme:
+    - slfa2019
+_core:
+  default_config_hash: yiIUbdnucjD1x1qBw9BTPmzDTZ41mr7nnDw7KH1pa4M
+id: slfa2019_page_title
+theme: slfa2019
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

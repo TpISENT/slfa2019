@@ -1,0 +1,22 @@
+uuid: f057eee4-8951-4ff7-8667-92842a25bb8d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - catalogplus
+_core:
+  default_config_hash: _Uy5RwPSn1kGbk3m4OMQQq5wG9ToQ80BFDPQfMmVPrs
+id: catalogplus_local_tasks
+theme: catalogplus
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: d0b00b62-01c3-4ea1-897d-0acb0d54408a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - slfa2019
+_core:
+  default_config_hash: 0rH8oqsGSxBtPe9g_YfVUX4o41Pqf-kRYEaI-iWUzxw
+id: slfa2019_breadcrumbs
+theme: slfa2019
+region: system_messages
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }
