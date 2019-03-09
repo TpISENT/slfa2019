@@ -23,6 +23,7 @@ tmp/*
 docroot/sites/*/settings.local.php
 docroot/sites/*/settings.devdesktop.php
 docroot/sites/*/services*.yml
+docroot/sites/*/settings.php
 
 # Ignore paths that contain user-generated content.
 docroot/sites/*/files
