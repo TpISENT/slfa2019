@@ -280,7 +280,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'KFj_EhlozgHaYRY1Rm6WS3QrjdO88PLwauvaCPdGS5vaYdc_I9dlFcVR5baTtuRJpWYQWwvd2Q';
 
 /**
  * Deployment identifier.
@@ -769,3 +769,13 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $config_directories['sync'] = '../config/sync';
+$databases['default']['default'] = array (
+  'database' => 'abk_slfa_sl_slfadevdb',
+  'username' => 'abk_s_slfaddb',
+  'password' => '&10Mwbv6',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);

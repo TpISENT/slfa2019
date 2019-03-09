@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "46496a3e8fd4730f48b5bf9e568a5a36",
+    "content-hash": "379daef4922511b9e40b64668d7cc968",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5595,8 +5595,8 @@
                     }
                 },
                 "patches_applied": {
-                    "Scheduler integration with core Content moderation": "https://www.drupal.org/files/issues/2019-01-23/2798689-170-alternative-approach.patch",
-                    "Deny edit access to scheduled content for unprivileged users": "https://www.drupal.org/files/issues/2018-12-18/3020250-8.patch"
+                    "Deny edit access to scheduled content for unprivileged users": "https://www.drupal.org/files/issues/2018-12-18/3020250-8.patch",
+                    "Scheduler integration with core Content moderation": "https://www.drupal.org/files/issues/2019-01-23/2798689-170-alternative-approach.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
