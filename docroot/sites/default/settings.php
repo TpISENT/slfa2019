@@ -770,9 +770,9 @@ $settings['entity_update_batch_size'] = 50;
 # }
 $config_directories['sync'] = '../config/sync';
 $databases['default']['default'] = array (
-  'database' => 'abk_slfa_sl_slfadevdb',
-  'username' => 'abk_s_slfaddb',
-  'password' => '&10Mwbv6',
+  'database' => 'slfa',
+  'username' => 'slfa',
+  'password' => 'slfa',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
